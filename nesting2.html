@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+
+    <style>
+        p {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .profile {
+            display:inline-block;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.222);
+            border-radius: 20px;
+            size: 100px;
+                                    
+        }
+
+        .profile-pic {
+            width: 100%;
+            aspect-ratio: 14/17;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+
+        }
+
+        .profile-info {
+            display: inline-block;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 0;
+            padding-bottom: 12px;
+            
+        }
+
+        .username {
+            font-size: 115%;
+            margin:0;
+            padding-top:4px;
+            padding-bottom: 8px;
+                }
+
+        .mutual-friends-grid {
+            display: grid;
+            grid-template-columns: 40px 1fr;
+        }
+
+        .mutual-friends-pic {
+            width: 30px;
+            border-radius: 50%;
+            vertical-align: auto;
+            margin-left: 5px;
+
+
+        }
+
+        .mutual-friends {
+            width: 150px;
+            margin-top: 3px;
+            margin-left: 4px;
+            color:rgb(158, 158, 158)
+        }
+
+        .add-friend-button {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 23px;
+            padding-right: 23px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            border-style: none;
+            font-size: 17px;
+            background-color: rgb(2, 119, 222);
+            color:white;
+            border-radius: 10px;
+            cursor:pointer;
+            transition: background-color 25ms;
+        }
+
+        .add-friend-button:hover {
+            background-color: rgb(1, 109, 204);
+        }
+
+        .add-friend-button:active {
+            opacity: 80%;
+        }
+
+        .profile-grid {
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            row-gap: 35px;
+            column-gap: 25px;
+        }
+
+
+    </style>
+</head>
+<body>
+   
+    <div class="profile-grid">
+        <div class="profile">
+            <div class="profile-pic">
+                <img class="profile-pic" src="pictures/golden1.jpg">
+            </div>
+            <div class="profile-info">
+                <div class="username">
+                    <p class="username">
+                        Oliver Naresh
+                    </p>
+                </div>
+                <div class="mutual-friends-grid">
+                    <div class="mutual-friends-pic">
+                        <img class="mutual-friends-pic" src="pictures/cat1.avif">
+                    </div>
+                    <div class="mutual-friends">
+                        <p class="mutual-friends">
+                            2 Mutual Friends
+                        </p>
+                    </div>
+                </div>
+                <div class="add-friend">
+                    <button class="add-friend-button">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="profile">
+            <div class="profile-pic">
+                <img class="profile-pic" src="pictures/cat1.avif">
+            </div>
+            <div class="profile-info">
+                <div class="username">
+                    <p class="username">
+                        Kitty Karthigeyan
+                    </p>
+                </div>
+                <div class="mutual-friends-grid">
+                    <div class="mutual-friends-pic">
+                        <img class="mutual-friends-pic" src="pictures/cat1.avif">
+                    </div>
+                    <div class="mutual-friends">
+                        <p class="mutual-friends">
+                            2 Mutual Friends
+                        </p>
+                    </div>
+                </div>
+                <div class="add-friend">
+                    <button class="add-friend-button">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="profile">
+            <div class="profile-pic">
+                <img class="profile-pic" src="thumbnails/2.jpg">
+            </div>
+            <div class="profile-info">
+                <div class="username">
+                    <p class="username">
+                        Naresh Karthigeyan
+                    </p>
+                </div>
+                <div class="mutual-friends-grid">
+                    <div class="mutual-friends-pic">
+                        <img class="mutual-friends-pic" src="pictures/cat1.avif">
+                    </div>
+                    <div class="mutual-friends">
+                        <p class="mutual-friends">
+                            2 Mutual Friends
+                        </p>
+                    </div>
+                </div>
+                <div class="add-friend">
+                    <button class="add-friend-button">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profile-pic">
+                <img class="profile-pic" src="pictures/golden1.jpg">
+            </div>
+            <div class="profile-info">
+                <div class="username">
+                    <p class="username">
+                        Oliver Naresh
+                    </p>
+                </div>
+                <div class="mutual-friends-grid">
+                    <div class="mutual-friends-pic">
+                        <img class="mutual-friends-pic" src="pictures/cat1.avif">
+                    </div>
+                    <div class="mutual-friends">
+                        <p class="mutual-friends">
+                            2 Mutual Friends
+                        </p>
+                    </div>
+                </div>
+                <div class="add-friend">
+                    <button class="add-friend-button">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="profile">
+            <div class="profile-pic">
+                <img class="profile-pic" src="pictures/cat1.avif">
+            </div>
+            <div class="profile-info">
+                <div class="username">
+                    <p class="username">
+                        Kitty Karthigeyan
+                    </p>
+                </div>
+                <div class="mutual-friends-grid">
+                    <div class="mutual-friends-pic">
+                        <img class="mutual-friends-pic" src="pictures/cat1.avif">
+                    </div>
+                    <div class="mutual-friends">
+                        <p class="mutual-friends">
+                            2 Mutual Friends
+                        </p>
+                    </div>
+                </div>
+                <div class="add-friend">
+                    <button class="add-friend-button">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="profile">
+            <div class="profile-pic">
+                <img class="profile-pic" src="thumbnails/2.jpg">
+            </div>
+            <div class="profile-info">
+                <div class="username">
+                    <p class="username">
+                        Naresh Karthigeyan
+                    </p>
+                </div>
+                <div class="mutual-friends-grid">
+                    <div class="mutual-friends-pic">
+                        <img class="mutual-friends-pic" src="pictures/cat1.avif">
+                    </div>
+                    <div class="mutual-friends">
+                        <p class="mutual-friends">
+                            2 Mutual Friends
+                        </p>
+                    </div>
+                </div>
+                <div class="add-friend">
+                    <button class="add-friend-button">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+   
+
+    
+</body>
+</html>
